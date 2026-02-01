@@ -1,0 +1,14 @@
+---
+title: "5Q Method"
+date: 2026-01-31
+---
+TLDR: Good communication between cross-functional teams is essential for proper commissioning of new equipment. It is important to find the right wording when asking questions and asking the same question 5 times is a useful method in finding the right wording. Be persistent, emphasize starting a discussion, and identify actionable steps. Below is interaction demonstrating this method
+1st Question: How do I connect a 3rd party device to a machine PLC?
+That’s not possible, 3rd parties are not allowed to have access to our internal devices
+2nd Question: What is the safest way to exchange information between these 2 devices?
+The 3rd party device connected to the PLC should only be able to read the data from the PLC, not write any changes. 
+3rd Question: If I just want the device to have the same settings as those entered on the machine, how could that be achieved?
+Controls needs the list of the data tags the device will be reading and the vendor needs to program the device to read the machine data and react accordingly
+4th Question: How will the device physically connect to the machine?
+We just need to run an ethernet cable between the 2
+5th Question: This is intended for planning out exact next steps and assigning responsibility
